@@ -1,4 +1,6 @@
 # %%
+#CREDIT FOR THE CODE: https://github.com/codebasics/deep-learning-keras-tf-tutorial/blob/master/16_cnn_cifar10_small_image_classification/cnn_cifar10_dataset.ipynb
+
 from tensorflow.keras import datasets, layers, models
 import matplotlib.pyplot as plt
 
