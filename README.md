@@ -1,1 +1,1 @@
-Image CLassifiser
+Image Classifiser
