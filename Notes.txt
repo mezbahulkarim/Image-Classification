@@ -1,4 +1,15 @@
-Researching CNNs....
+		....Researching more on CNNs....
+
+General Overview: 
+
+-use filter functions to detect features 
+-matrix multiplication forms new matrix
+-mix multiple features to get n dimensional matrix then flatten to one long 
+-pooling to simplify feature extraction + kills overfitting  
+
+
+drawbacks:
+-cannot handle rotation/size
 
 
 
@@ -17,18 +28,9 @@ Researching CNNs....
 
 
 
+---------------------------------------------------------------------------------------------
 
-
-
-
-
-
-
-
-
------------------------------------------------------------------------------------------------
-
-Previous Comments: 
+Previous Code Comments: 
 
 import matplotlib.pyplot as plt
 #x_test.shape                        #images, dimension, dimension, rgb channels
