@@ -1,0 +1,17 @@
+Previous Comments: 
+
+#x_test.shape                        #images, dimension, dimension, rgb channels
+
+
+#y_train[:5]				 #see structure 
+y_train=y_train.reshape(-1, )        #convert 2d array to 1d
+
+#plt.figure(figsize=(15,2))     
+#plt.imshow(x_train[50])             #change index, see images
+
+layers.Flatten(),                    #1D now
+
+layers.Conv2D(filters=32, kernel_size=(3,3), activation='relu', input_shape=(32,32,3)),            #detects features(32 boxes)  kernel_sizes(sub boxes to detect featuers)
+layers.MaxPooling2D((2,2)),      											   #compresses feature extraction
+
+#~70% ACCURACY  
