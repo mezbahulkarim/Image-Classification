@@ -1,5 +1,36 @@
+Researching CNNs....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------
+
 Previous Comments: 
 
+import matplotlib.pyplot as plt
 #x_test.shape                        #images, dimension, dimension, rgb channels
 
 
