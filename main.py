@@ -35,9 +35,8 @@ cnn.compile(optimizer='adam',
 
 # %%
 #TRAIN
-cnn.fit(x_train, y_train, epochs=15)             
-
-
+cnn.fit(x_train, y_train, epochs=15)            
+ 
 # %%
 #TEST
 cnn.evaluate(x_test, y_test)         

@@ -3,8 +3,10 @@
 General Overview: 
 
 -use filter functions to detect features 
--matrix multiplication forms new matrix
--mix multiple features to get n dimensional matrix then flatten to one long 
+-filters will move around the input layer and detect features 
+-matrix multiplication(dot product with filter matrix and 3,3 input pixels)
+-new convolutional layer formed from the result of above matrix operation
+-multiple filter matrices to detect multiple features
 -pooling to simplify feature extraction + kills overfitting  
 
 
