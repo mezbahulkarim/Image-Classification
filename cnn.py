@@ -29,7 +29,7 @@ y_train = train_data[:,0]
 x_test= test_data[:,1:]/255
 y_test=test_data[:,0]
 
-x_train,x_validate,y_train,y_validate = train_test_split(x_train,y_train,test_size = 0.2,random_state = 12345)  #??????
+x_train,x_validate,y_train,y_validate = train_test_split(x_train,y_train,test_size = 0.2,random_state = 12345) 
 
 #%%
 #SHOW IMAGES 
